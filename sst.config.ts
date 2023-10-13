@@ -12,7 +12,7 @@ export default {
     app.stack(function Site({ stack }) {
       const site = new NextjsSite(stack, "site", {
         customDomain: {
-          domainName: "https://next-sst-example.ruchern.xyz",
+          domainName: "next-sst-example.ruchern.xyz",
           hostedZone: "ruchern.xyz",
         },
       });
