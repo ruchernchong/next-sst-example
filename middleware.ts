@@ -37,6 +37,7 @@ export const middleware = (request: NextRequest) => {
   );
 
   return NextResponse.next({
+    headers: requestHeaders,
     request: {
       headers: requestHeaders,
     },
